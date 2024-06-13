@@ -1,4 +1,9 @@
-<div className="container">
+import React from 'react'
+
+const ViewBooking = () => {
+  return (
+    <div>
+        <div className="container">
     <div className="row">
         <center>
             <br /> <h3> View Booking </h3> <br />
@@ -27,3 +32,8 @@
         </div>
     </div>
 </div>
+    </div>
+  )
+}
+
+export default ViewBooking
