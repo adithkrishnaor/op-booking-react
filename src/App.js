@@ -8,6 +8,7 @@ function App() {
     <div>
       <Viewdocs/>
       <BookNow/>
+      
     </div>
   );
 }
