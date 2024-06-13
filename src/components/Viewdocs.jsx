@@ -31,7 +31,7 @@ const Viewdocs = () => {
                                     <td>AJ Hospital</td>
                                     <td>1000</td>
                                     <td>
-                                        <a href="http://">Book Now</a>
+                                        <a href="/">Book Now</a>
                                     </td>
                                 </tr>
                                 <tr>
