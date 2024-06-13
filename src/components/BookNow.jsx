@@ -52,25 +52,25 @@ const BookNow = () => {
                             <label htmlFor="" className="form-label">
                                 Patient Name
                             </label>
-                            <input type="text" className="form-control" />
+                            <input type="text" className="form-control" name='pname' value={data.pname} onChange={inputHandler}/>
                         </div>
                         <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">
                                 Address
                             </label>
-                            <input type="text" className="form-control" />
+                            <input type="text" className="form-control" name='address' value={data.address} onChange={inputHandler}/>
                         </div>
                         <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">
                                 Date
                             </label>
-                            <input type="date" className="form-control" />
+                            <input type="date" className="form-control" name='date' value={data.date} onChange={inputHandler}/>
                         </div>
                         <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">
                                 Slot
                             </label>
-                            <select id="" className="form-control">
+                            <select id="" className="form-control"  name='slot' value={data.slot} onChange={inputHandler}>
                                 <option value="Select">Select</option>
                                 <option value="Morning">Morning</option>
                                 <option value="Evening">Evening</option>
@@ -80,7 +80,7 @@ const BookNow = () => {
                             <label htmlFor="" className="form-label">
                                 Blood Group
                             </label>
-                            <select id="" className="form-control">
+                            <select id="" className="form-control" name='blood' value={data.blood} onChange={inputHandler}>
                                 <option value="Select">Select</option>
                                 <option value="A+">A+</option>
                                 <option value="A-">A-</option>
@@ -95,7 +95,7 @@ const BookNow = () => {
                             <label htmlFor="" className="form-label">
                                 Dr Name
                             </label>
-                            <select id="" className="form-control">
+                            <select id="" className="form-control" name='drname' value={data.drname} onChange={inputHandler}>
                                 <option value="Select">Select</option>
                                 <option value="Morning">Dr.Manu</option>
                                 <option value="Evening">Dr.Ram</option>
@@ -104,7 +104,7 @@ const BookNow = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                             <center>
-                                <button className="btn btn-success">Book Now</button>
+                                <button className="btn btn-success" onClick={readValue}>Book Now</button>
                             </center>
                         </div>
                     </div>
