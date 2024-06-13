@@ -41,7 +41,7 @@ const Viewdocs = () => {
                                         <td>KJK Hospital</td>
                                         <td>500</td>
                                         <td>
-                                            <a href="http://">Book Now</a>
+                                            <a href="/">Book Now</a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -51,7 +51,7 @@ const Viewdocs = () => {
                                         <td>Gvt Hospital</td>
                                         <td>100</td>
                                         <td>
-                                            <a href="http://">Book Now</a>
+                                            <a href="/">Book Now</a>
                                         </td>
                                     </tr>
                             </tbody>
